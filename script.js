@@ -29,6 +29,11 @@ document.querySelectorAll('.nav-link').forEach(anchor => {
                     behavior: 'smooth'
                 });
             }
+
+            // Close the mobile menu after clicking a link
+            if (document.querySelector('.nav-list').classList.contains('show')) {
+                document.querySelector('.nav-list').classList.remove('show');
+            }
         }
     });
 });
@@ -36,16 +41,19 @@ document.querySelectorAll('.nav-link').forEach(anchor => {
 // Loading Screen Logic
 window.addEventListener('load', function() {
     const loadingScreen = document.getElementById('loading-screen');
-    const navbarLogo = document.getElementById('navbar-logo');
 
     setTimeout(() => {
         loadingScreen.style.opacity = '0';
         loadingScreen.style.pointerEvents = 'none';
         
-        // Add animation class to navbar logo
         setTimeout(() => {
-            navbarLogo.classList.add('visible');
             loadingScreen.style.display = 'none';
         }, 1000); // match the duration of your fade-out animation
     }, 3000); // adjust this time to match your loading animation duration
+});
+
+// Mobile menu toggle
+const menuToggle = document.querySelector('.menu-toggle');
+menuToggle.addEventListener('click', function() {
+    document.querySelector('.nav-list').classList.toggle('show');
 });
