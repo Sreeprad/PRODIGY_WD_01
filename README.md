@@ -18,10 +18,6 @@ This repository contains the code for an interactive navigation menu designed as
 
 To get a local copy up and running, follow these simple steps.
 
-#### Prerequisites
-
-Make sure you have a modern web browser installed.
-
 #### Installation
 
 1. Clone the repo:
@@ -29,11 +25,6 @@ Make sure you have a modern web browser installed.
     git clone https://github.com/Sreeprad/PRODIGY_WD_01
     ```
 2. Open the `index.html` file in your web browser to see the interactive menu in action.
-
-### Usage
-
-- **Hover over** the menu items to see the color change.
-- **Scroll** down the page to see the background color change.
 
 ### Demo
 
@@ -46,5 +37,3 @@ Thank you for checking out my project!
 ---
 
 *Note: This project is part of my internship task at Prodigy. For more details about the company, visit their [website](https://prodigyinfotech.dev/).*
-
-Feel free to customize this README file further to match your specific needs and preferences.
