@@ -6,7 +6,6 @@ This repository contains the code for an interactive navigation menu designed as
 
 - **Fixed Position:** The navigation menu stays at the top of the page, visible at all times.
 - **Dynamic Styling:** The background color or font color changes when scrolling or hovering over menu items.
-- **Responsive Design:** The menu is designed to be responsive and work well on various screen sizes.
 
 ### Technologies Used
 
@@ -22,13 +21,23 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo:
     ```sh
-    git clone https://github.com/Sreeprad/PRODIGY_WD_01
+    git clone https://github.com/yourusername/interactive-navigation-menu.git
     ```
 2. Open the `index.html` file in your web browser to see the interactive menu in action.
+
+### Usage
+
+- **Hover over** the menu items to see the color change.
+- **Scroll** down the page to see the background color change.
 
 ### Demo
 
 Check out the live demo [here](https://sreeprad.github.io/PRODIGY_WD_01/).
+
+### Desktop Compatibility
+
+This website is designed to be most comfortable in a desktop environment. It may not function correctly on various screen sizes or mobile devices. For the best experience, please view it on a desktop browser.
+
 
 ---
 
@@ -37,3 +46,4 @@ Thank you for checking out my project!
 ---
 
 *Note: This project is part of my internship task at Prodigy. For more details about the company, visit their [website](https://prodigyinfotech.dev/).*
+
