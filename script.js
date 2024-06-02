@@ -49,7 +49,7 @@ window.addEventListener('load', function() {
         setTimeout(() => {
             loadingScreen.style.display = 'none';
         }, 1000); // match the duration of your fade-out animation
-    }, 3000); // adjust this time to match your loading animation duration
+    }, 1000); // reduce this time to 1 second
 });
 
 // Mobile menu toggle
