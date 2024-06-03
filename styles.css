@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   color: white;
-  background: url("space.png") no-repeat center center fixed;
+  background: url("https://source.unsplash.com/1600x900/?universe,universe") no-repeat center center fixed;
   background-size: cover;
 }
 
