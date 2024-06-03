@@ -21,7 +21,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo:
     ```sh
-    git clone https://github.com/yourusername/interactive-navigation-menu.git
+    git clone https://github.com/Sreeprad/PRODIGY_WD_01.git
     ```
 2. Open the `index.html` file in your web browser to see the interactive menu in action.
 
