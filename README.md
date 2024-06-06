@@ -34,10 +34,9 @@ To get a local copy up and running, follow these simple steps.
 
 Check out the live demo [here](https://sreeprad.github.io/PRODIGY_WD_01/).
 
-### Desktop Compatibility
+### Compatibility
 
-This website is designed to be most comfortable in a desktop environment. It may not function correctly on various screen sizes or mobile devices. For the best experience, please view it on a desktop browser.
-
+This website is designed to function correctly on various screen sizes, including desktop, tablet, and mobile devices. For the best experience, view it on any modern web browser.
 
 ---
 
